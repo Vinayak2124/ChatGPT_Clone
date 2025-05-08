@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+
+
+
+.upper::-webkit-scrollbar {
+    width: 8px;
+    /* Make the scrollbar narrow */
+}
+
+/* Track (the area the thumb slides on) */
+.upper::-webkit-scrollbar-track {
+    background: transparent;
+    /* Make the track transparent or match background */
+    /* Optional: add a slight color if you want a very subtle track */
+    /* background: #e0e0e0; */
+}
+
+/* Thumb (the draggable part)*/
+.upper::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Subtle, semi-transparent gray */
+    border-radius: 4px;
+    /* Rounded corners for the thumb */
+    /* Make the thumb less visible when not hovering the container */
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    /* Smooth transition for opacity */
+}
+
+/* Thumb on hover over the thumb itself*/
+.upper::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Slightly darker on hover */
+}
+
+/* Thumb becomes visible when hovering over the scrollable container */
+.upper:hover::-webkit-scrollbar-thumb {
+    opacity: 1;
+}
+
+/* --- Scrollbar Styling (for Firefox) --- */
+/* Note: Firefox styling is less flexible than Webkit */
+.upper {
+    scrollbar-width: thin;
+    /* auto | thin | none */
+    scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+    /* thumb color track color */
+    /* The "appear on hover" effect is not directly possible for the thumb opacity in pure Firefox CSS */
+}
+
+
+
+/* Overall scrollbar */
+.right2::-webkit-scrollbar {
+    width: 8px;
+    /* Make the scrollbar narrow */
+}
+
+/* Track (the area the thumb slides on) */
+.right2::-webkit-scrollbar-track {
+    background: transparent;
+    /* Make the track transparent or match background */
+    /* Optional: add a slight color if you want a very subtle track */
+    /* background: #e0e0e0; */
+}
+
+/* Thumb (the draggable part)*/
+.right2::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Subtle, semi-transparent gray */
+    border-radius: 4px;
+    /* Rounded corners for the thumb */
+    /* Make the thumb less visible when not hovering the container */
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    /* Smooth transition for opacity */
+}
+
+/* Thumb on hover over the thumb itself*/
+.right2::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Slightly darker on hover */
+}
+
+/* Thumb becomes visible when hovering over the scrollable container */
+.right2:hover::-webkit-scrollbar-thumb {
+    opacity: 1;
+}
+
+/* --- Scrollbar Styling (for Firefox) --- */
+/* Note: Firefox styling is less flexible than Webkit */
+.right2 {
+    scrollbar-width: thin;
+    /* auto | thin | none */
+    scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+    /* thumb color track color */
+    /* The "appear on hover" effect is not directly possible for the thumb opacity in pure Firefox CSS */
+}

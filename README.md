@@ -5,7 +5,7 @@ This is a **ChatGPT clone** built using **Flask**, **HTML/JavaScript**, and **Ta
 It integrates **MongoDB** to store previous user queries and responses, allowing fast and efficient replies without hitting the API multiple times.
 
 ## Features
-- Conversational AI using a backend model (e.g., OpenAI API or custom AI).
+- Conversational AI using a backend model (Google gemini API).
 - Stores user questions & responses in **MongoDB** for quicker replies.
 - Prevents unnecessary API calls by retrieving databases responses.
 - **TailwindCSS** for sleek and modern UI design.
